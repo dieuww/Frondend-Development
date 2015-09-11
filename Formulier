@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulier</title>
+</head>
+<body>
+    <h1>Aanmelden</h1>
+    <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan! Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar. </p>
+
+    <p>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</p>
+
+    <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd. Voor vragen of opmerkingen kunt u contact <a href="http://www.hva.nl/onderwijs/opleidingen/opleidingen/opleidingen/content/folder/dmci/communication-and-multimedia-design/meer-informatie/contact/contact-en-locatie.html">contact</a> met ons op nemen.</p>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Contactgegevens:</legend>
+            <p>Naam:
+                <label for="name"></label>
+                <input type="text" id="name" name="name">
+            </p>
+
+            <p>Bedrijf:
+                <label for="company1"></label>
+                <input type="text" id="company1" name="company1">
+            </p>
+
+            <p>Adres:
+                <label for="address1"></label>
+                <input type="text" id="address1" name="address1">
+            </p>
+
+            <p>Postcode:
+                <label for="postal1"></label>
+                <input type="text" id="postal1" name="postal1">
+            </p>
+
+            <p>Plaats:
+                <label for="place1"></label>
+                <input type="text" id="place1" name="place1">
+            </p>
+
+            <p>Telefoon:
+                <label for="phone"></label>
+                <input type="text" id="phone" name="phone">
+            </p>
+            <p>Email:
+                <label for="mail"></label>
+                <input type="email" id="mail" name="mail">
+            </p>
+
+            <p>Ik wil mij aanmelden:
+            <input id="project" type="radio" name="aanmelden" value="p">
+            <label for="project">voor een project</label>
+
+            <input id="bedrijf" type="radio" name="aanmelden" value="b">
+            <label for="bedrijf">als stagebedrijf</label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Project</legend>
+            <p>Titel:
+                <label for="title"></label>
+                <input type="text" id="title" name="title">
+            </p>
+
+            <p>Opdrachtomschrijving:
+                <label for="description"></label>
+                <input type="text" id="description" name="description">
+            </p>
+
+            <p>Doelgroepomschrijving:
+                <label for="targetgroup"></label>
+                <input type="text" id="targetgroup" name="targetgroup">
+            </p>
+
+            <p>Doelstelling/intentie van het project:
+                <label for="goal"></label>
+                <textarea name="goal" id="goal"></textarea>
+            </p>
+
+            <p>Looptijd:
+                <label for="duration"></label>
+                <input type="text" id="duration" name="duration"> weken
+            </p>
+
+            <label for="deadline">Deadline:</label>
+            <input type="date" name="deadline" id="deadline" />
+
+            <p>Geschikt voor:
+            <select name="project">
+               <option value="first">Eerstejaars studenten</option>
+               <option value="second">Tweedejaars studenten</option>
+               <option value="third">Derdejaars studenten</option>
+               <option value="fourth">Vierdejaars studenten</option>
+               <option value="fifth">Onbekend</option>
+            </select>
+            </p>
+
+            <p>Opmerkingen:
+                <label for="comments"></label>
+                <textarea name="comments" id="comments"></textarea>
+            </p>
+
+            <input type="submit" name="sendproject" value="Verzenden"/>
+        </fieldset>
+
+        <fieldset>
+            <legend>Stage</legend>
+            <p>Geschikt voor:
+            <select name="intern">
+               <option value="two">Tweedejaars studenten</option>
+               <option value="graduation">afstudeer studenten</option>
+               <option value="unknown">Onbekend</option>
+            </select>
+            </p>
+
+            <p>Hoe lang is de stage?
+            <input id="10" type="radio" name="weeksintern" value="10weeks">
+            <label for="10">10 weken</label>
+
+            <input id="20" type="radio" name="weeksintern" value="20weeks">
+            <label for="20">20 weken</label>
+            </p>
+
+            <label for="startdate">Begin datum:</label>
+            <input type="date" name="startdate" id="startdate" />
+
+            <p>Beschrijving werkzaamheden:
+                <label for="activities"></label>
+                <textarea name="activities" id="activities"></textarea>
+            </p>
+
+            <p>Beschrijving stagebedrijf:
+                <label for="internship"></label>
+                <textarea name="internship" id="internship"></textarea>
+            </p>
+
+            <p>Bedrijf:
+                <label for="company2"></label>
+                <input type="text" id="company2" name="company2">
+            </p>
+
+            <p>Adres:
+                <label for="address2"></label>
+                <input type="text" id="address2" name="address2">
+            </p>
+
+            <p>Postcode:
+                <label for="postal2"></label>
+                <input type="text" id="postal2" name="postal2">
+            </p>
+
+            <p>Plaats:
+                <label for="place2"></label>
+                <input type="text" id="place2" name="place2">
+            </p>
+
+            <p>Sector:
+                <label for="sector"></label>
+                <input type="text" id="sector" name="sector2">
+            </p>
+
+            <p>Core Business:
+                <label for="corebusiness"></label>
+                <input type="text" id="corebusiness" name="corebusiness">
+            </p>
+
+            <input type="submit" name="sendintern" value="Verzenden"/>
+        </fieldset>
+    </form>
+</body>
+</html>
